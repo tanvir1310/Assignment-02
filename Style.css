@@ -850,6 +850,15 @@ body {
     max-width: 443px;
     margin-bottom: 40px;
   }
+
+  .div-block-34 {
+    grid-column-gap: 12px;
+    grid-row-gap: 12px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    grid-auto-columns: 1fr;
+    display: grid;
+  }
   
   
 }
