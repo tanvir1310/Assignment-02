@@ -7,6 +7,10 @@ body {
   --black: black;
   --white: white;
 }
+@font-face {
+  font-family: 'milk' sans-serif;
+  src: url(milk_peach/Milk\ Peach.ttf);
+}
 
 
 .fitness-hero {
@@ -633,7 +637,7 @@ body {
   grid-column-gap: 12px;
   grid-row-gap: 12px;
   grid-template-rows: auto;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
   display: grid;
 }
