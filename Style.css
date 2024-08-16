@@ -7,11 +7,81 @@ body {
   --black: black;
   --white: white;
 }
-@font-face {
+/* @font-face {
   font-family: 'milk' sans-serif;
-  src: url(milk_peach/Milk\ Peach.ttf);
+  src: url(C:\Projects\Assignment 02\milk_peach);
 }
 
+.innerText {
+  font-family: 'milk' sans-serif;
+} */
+
+/* nav bar start */
+
+.nav-bar-container {
+  flex: 1;
+  justify-content: space-between;
+  max-width: 1060px;
+  height: 54px;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-bar {
+  background-color: var(--black);
+  justify-content: center;
+  padding-top: 20px;
+  display: flex;
+}
+
+.nav-menu {
+  flex: 1;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 445px;
+  display: flex;
+}
+
+.nav-logo {
+  flex: 1;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 132px;
+  display: flex;
+}
+
+.menu-bar {
+  width: 24px;
+  height: 24px;
+  display: none;
+}
+
+.main-menu {
+  border: 1px solid #fff3;
+  border-radius: 46px;
+  flex: 1;
+  justify-content: space-between;
+  padding: 4px;
+  display: flex;
+}
+
+.menu-link {
+  color: var(--white);
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+.nav-link {
+  border-radius: 46px;
+  padding: 8px 20px;
+}
+/* nav end */
 
 .fitness-hero {
   background-image: url('../images/Hero_bg.png');
@@ -19,8 +89,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
-  padding-top: 95px;
-  display: flex;
+  padding-top: 32px;
+  display: block;
+
 }
 
 .fitness-hero-container {
@@ -30,6 +101,8 @@ body {
   margin-left: 40px;
   margin-right: 40px;
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .div-block {
@@ -860,6 +933,33 @@ body {
     display: grid;
   }
   
+
+  /* nav mbl start */
+
+  .nav-bar-container {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .nav-bar {
+    /* padding-top: 20px; */
+  }
+
+  .menu-bar {
+    margin-left: auto;
+    display: block;
+  }
+
+  .main-menu {
+    display: none;
+  }
+
+  .nav-bar-container {
+  margin-bottom: 40px;
+  }
+
+  
+  /* nav mbl end */
   
 }
 
